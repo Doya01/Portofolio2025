@@ -1,0 +1,57 @@
+.projekter_grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 10rem;
+  column-gap: 2rem;
+}
+
+.udenom_projekter_grid {
+  margin-top: 8rem;
+  padding-inline: 6rem;
+}
+/*************************************************/
+
+.pc_container {
+  width: 200px;
+  height: 300px;
+  border: 1px solid black;
+  margin-bottom: 25px;
+  justify-content: center;
+}
+
+.minpcboks {
+  height: 200px;
+  width: auto;
+  object-fit: cover;
+  justify-content: center;
+}
+
+/************************************************/
+
+.travel_container {
+}
+
+.traveldiariesboks {
+  height: 200px;
+  width: auto;
+}
+
+/************************************************/
+
+.plante_container {
+}
+
+.plantoriumboks {
+  height: 200px;
+  width: auto;
+}
+
+/************************************************/
+
+.friihof_container {
+}
+
+.friihofboks {
+  height: 200px;
+  width: auto;
+}

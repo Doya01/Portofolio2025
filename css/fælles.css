@@ -31,6 +31,8 @@ h1 {
   font-style: normal;
   font-size: 100px;
   color: #472d16;
+  text-align: center;
+  margin: 10%;
 }
 
 h2 {
@@ -44,6 +46,14 @@ h3 {
   font-family: "cofo-glassier", sans-serif;
   font-style: normal;
   font-size: 90px;
+  color: #472d16;
+  text-align: center;
+}
+
+.procesheader {
+  font-family: "cofo-glassier", sans-serif;
+  font-style: normal;
+  font-size: 60px;
   color: #472d16;
   text-align: center;
 }

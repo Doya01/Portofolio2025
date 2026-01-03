@@ -21,7 +21,42 @@ header {
   font-size: 40px;
   color: #472d16;
   text-align: justify;
-  letter-spacing: 5%;
+  letter-spacing: 2px;
   line-height: 200%;
+  margin: 10%;
+}
+
+.pcbillede1 {
+  border-radius: 90px;
+  margin: 10%;
+}
+
+.pcbillede2 {
+  border-radius: 90px;
+  margin: 10%;
+}
+
+.linktilpc {
+  font-family: "cofo-glassier", sans-serif;
+  font-style: bold;
+  font-size: 60px;
+  color: #472d16;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.pc_læring_tekst {
+  font-family: "cofo-glassier", sans-serif;
+  font-style: normal;
+  font-size: 40px;
+  color: #472d16;
+  text-align: justify;
+  letter-spacing: 2px;
+  line-height: 200%;
+  margin: 10%;
+}
+
+.pcbillede3 {
+  border-radius: 90px;
   margin: 10%;
 }

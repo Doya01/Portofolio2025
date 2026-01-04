@@ -50,6 +50,13 @@ h3 {
   text-align: center;
 }
 
+p {
+  font-family: "cofo-glassier", sans-serif;
+  font-style: normal;
+  color: #472d16;
+  font-size: 40px;
+}
+
 .procesheader {
   font-family: "cofo-glassier", sans-serif;
   font-style: normal;

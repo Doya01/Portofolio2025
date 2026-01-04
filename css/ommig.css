@@ -6,7 +6,7 @@ header {
   padding-top: 20px;
   position: sticky;
   top: 0;
-  box-shadow: 0 10px 10px rgba(145, 87, 65, 0.168);
+  box-shadow: 0 10px 10px #472d16(145, 87, 65, 0.168);
   padding: 25px 50px;
   display: flex;
   align-items: center;
@@ -18,11 +18,73 @@ header {
   height: auto;
   text-align: center;
 }
-/******************************************/
+/*****************grid*************************/
 
 .ommig_top {
   background-image: url(/ommigbilleder/ommigside.save1.svg);
   background-repeat: no-repeat;
   background-size: 100%;
   object-fit: fill;
+}
+
+.ommig_nedre {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: 10%;
+}
+
+/*venstre kasse*/
+
+.ommig-box-venstre {
+  width: 300px;
+  background-color: #a37c53;
+  border-radius: 95px;
+  height: 500px;
+  justify-self: center;
+  grid-column: 1;
+}
+
+/*animation*/
+
+.ommig-box-venstre:hover {
+  width: 320px;
+}
+
+/*Højre kasse*/
+
+.ommig-box-højre {
+  width: 300px;
+  background-color: #a37c53;
+  border-radius: 95px;
+  height: 500px;
+  justify-self: center;
+  grid-column: 3;
+}
+
+/*animation*/
+
+.ommig-box-højre:hover {
+  width: 320px;
+}
+
+/*Tekst*/
+
+h3 {
+  font-family: "cofo-glassier", sans-serif;
+  font-style: normal;
+  font-size: 90px;
+  color: #472d16;
+  text-align: center;
+  justify-self: center;
+  margin-top: 50%;
+}
+
+a {
+  color: #472d16;
+}
+
+/**********pop-up************/
+
+::backdrop {
+  backdrop-filter: blur(5px);
 }

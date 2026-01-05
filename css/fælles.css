@@ -14,17 +14,29 @@ body {
 footer {
   margin-top: 10%;
   background-color: #a37c53;
-  height: 300px;
+  height: 10rem;
 }
 
 .footer_grid {
   display: grid;
-  grid-template-columns: 2fr 3fr;
+  grid-template-columns: 1fr;
 }
 
 .p_footer {
   padding-top: 20px;
 }
+
+.footer_mail {
+  font-family: "cofo-glassier", sans-serif;
+  font-style: normal;
+  color: #472d16;
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 5%;
+  letter-spacing: 20%;
+}
+
+/*****************************************/
 
 h1 {
   font-family: "cofo-glassier", sans-serif;
@@ -32,7 +44,7 @@ h1 {
   font-size: 100px;
   color: #472d16;
   text-align: center;
-  margin: 10%;
+  margin: 5%;
 }
 
 h2 {
@@ -55,14 +67,6 @@ p {
   font-style: normal;
   color: #472d16;
   font-size: 40px;
-}
-
-.procesheader {
-  font-family: "cofo-glassier", sans-serif;
-  font-style: normal;
-  font-size: 60px;
-  color: #472d16;
-  text-align: center;
 }
 
 a {
